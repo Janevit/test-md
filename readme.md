@@ -1,17 +1,1 @@
-Thank you for providing your email address. I've retrieved the information for incident number INC000000415649. Here's a summary of the incident:
-
-1. Status: The incident is currently in a "New" state.
-2. Priority: 3 (Medium)
-3. Short Description: Notebook blue screen with error
-4. Opened on: September 18, 2024, at 16:54:41 (Bangkok time)
-5. Last Updated: September 18, 2024, at 16:54:43 (Bangkok time)
-6. Assigned Group: KInfra - Incidents Coordinator
-7. Contact Type: Chat
-8. Category: Inquiry
-9. Subcategory: RFS (Request for Service)
-
-The incident was created based on your report of a notebook experiencing a blue screen error. The system has recorded your contact number as 0972800486.
-
-Currently, the incident is in the initial stage and has not yet been assigned to a specific technician. The KInfra - Incidents Coordinator team will be handling this case.
-
-Is there any specific information about this incident that you would like to know more about? Or do you have any questions regarding the next steps?
+สำหรับการกรอก service request เพื่อใช้งาน cloud services คุณสามารถใช้แบบฟอร์ม Self-Service Cloud Automation Request บนแพลตฟอร์ม KInfra Service Now ได้ครับ โดยมีขั้นตอนหลักๆ ดังนี้: 1. เข้าถึงแบบฟอร์มผ่านลิงก์นี้: https://kasikornbankdev.service-now.com/sp?id=sc_cat_item&sys_id=22d9d28c1b57395065f8a712f54bcbe3&sysparm_category=c2ed65cf1bf45150dc6887fee54bcb7a 2. กรอกข้อมูลที่จำเป็น ซึ่งโดยทั่วไปจะประกอบด้วย: - Activity (เช่น Provision, Decommission, หรือ Consult Tech Research) - Application ID - Budget Code - Cloud Platform (เช่น AWS, Azure, GCP, MongoDB Atlas) - Company (Kbank หรือ Unita) - Package Size - Environment (เช่น PoC, DEV, SIT) - Account Name - รายละเอียดสำหรับทรัพยากรต่างๆ เช่น EKS Workernodes และ Bastion (Jumphost) 3. ให้ข้อมูลเพิ่มเติมหรือรายละเอียดอื่นๆ ตามที่แบบฟอร์มต้องการ 4. ส่งคำขอเมื่อกรอกข้อมูลครบถ้วน ขอแจ้งให้ทราบว่ากระบวนการนี้เป็นแบบอัตโนมัติ และโดยปกติแล้ว Service Level Agreement (SLA) สำหรับการประมวลผลคำขอเหล่านี้จะไม่เกิน 1 วัน หากคุณพบปัญหาหรือข้อผิดพลาดใดๆ ในระหว่างการส่งคำขอผ่าน Service Now คุณสามารถติดต่อทีมสนับสนุนที่เกี่ยวข้องเพื่อขอความช่วยเหลือได้ครับ มีคำถามเพิ่มเติมเกี่ยวกับการกรอก service request หรือการใช้งาน cloud ไหมครับ? ผมยินดีช่วยเหลือครับ
