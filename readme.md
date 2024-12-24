@@ -1,1 +1,23 @@
-สำหรับการกรอก service request เพื่อใช้งาน cloud services คุณสามารถใช้แบบฟอร์ม Self-Service Cloud Automation Request บนแพลตฟอร์ม KInfra Service Now ได้ครับ โดยมีขั้นตอนหลักๆ ดังนี้: 1. เข้าถึงแบบฟอร์มผ่านลิงก์นี้: https://kasikornbankdev.service-now.com/sp?id=sc_cat_item&sys_id=22d9d28c1b57395065f8a712f54bcbe3&sysparm_category=c2ed65cf1bf45150dc6887fee54bcb7a 2. กรอกข้อมูลที่จำเป็น ซึ่งโดยทั่วไปจะประกอบด้วย: - Activity (เช่น Provision, Decommission, หรือ Consult Tech Research) - Application ID - Budget Code - Cloud Platform (เช่น AWS, Azure, GCP, MongoDB Atlas) - Company (Kbank หรือ Unita) - Package Size - Environment (เช่น PoC, DEV, SIT) - Account Name - รายละเอียดสำหรับทรัพยากรต่างๆ เช่น EKS Workernodes และ Bastion (Jumphost) 3. ให้ข้อมูลเพิ่มเติมหรือรายละเอียดอื่นๆ ตามที่แบบฟอร์มต้องการ 4. ส่งคำขอเมื่อกรอกข้อมูลครบถ้วน ขอแจ้งให้ทราบว่ากระบวนการนี้เป็นแบบอัตโนมัติ และโดยปกติแล้ว Service Level Agreement (SLA) สำหรับการประมวลผลคำขอเหล่านี้จะไม่เกิน 1 วัน หากคุณพบปัญหาหรือข้อผิดพลาดใดๆ ในระหว่างการส่งคำขอผ่าน Service Now คุณสามารถติดต่อทีมสนับสนุนที่เกี่ยวข้องเพื่อขอความช่วยเหลือได้ครับ มีคำถามเพิ่มเติมเกี่ยวกับการกรอก service request หรือการใช้งาน cloud ไหมครับ? ผมยินดีช่วยเหลือครับ
+ค่ะ ดิฉันยินดีให้คำแนะนำเกี่ยวกับการติดตั้ง Intune สำหรับ iOS โดยเฉพาะค่ะ ต่อไปนี้เป็นขั้นตอนการติดตั้งแบบละเอียด:
+
+1. เปิด App Store บน iPhone ของคุณ
+2. ค้นหา "company portal" ในช่องค้นหา
+3. เมื่อพบแอป Intune Company Portal ให้คลิกเพื่อติดตั้ง
+4. หลังติดตั้งเสร็จ จะมีไอคอน Company Portal ปรากฏบนหน้าจอหลัก
+5. เปิดแอป Company Portal
+6. กดปุ่ม "Sign in" เพื่อเข้าสู่ระบบ
+7. ป้อนรายละเอียดบัญชีผู้ใช้ของคุณ
+8. กด "ถัดไป" เพื่อดำเนินการต่อ
+
+ข้อแนะนำสำคัญ: ควรใช้ iOS เวอร์ชัน 16 ขึ้นไปเพื่อประสิทธิภาพที่ดีที่สุด
+
+สำหรับรายละเอียดเพิ่มเติม คุณสามารถดูคู่มือฉบับเต็มได้ที่ลิงก์นี้:
+[คู่มือ Install Intune IOS](https://kasikornbankgroup.sharepoint.com/sites/K-Helps_KM/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FK%2DHelps%5FKM%2FShared%20Documents%2F%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%20AI%20ChatBOT%20POC%2F%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%20Install%20Intune%2F%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%20Install%20Intune%20IOS%2Epdf&viewid=26832f71%2Dc657%2D46a2%2D8c30%2Da5dd7821b9e7&parent=%2Fsites%2FK%2DHelps%5FKM%2FShared%20Documents%2F%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%AA%E0%B8%B3%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%9A%20AI%20ChatBOT%20POC%2F%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%20Install%20Intune)
+
+คุณมีคำถามเพิ่มเติมเกี่ยวกับการติดตั้ง Intune บน iOS ไหมคะ?
+
+ในกรณีที่คุณต้องการสอบถามข้อมูลเพิ่มเติม สามารถติดต่อเราได้ที่
+ช่องทาง K-Helps: 02 470 5555 / K-Helps@kbtg.tech 
+
+ข้อจำกัดความรับผิดชอบ: Athena เป็น AI ที่สร้างคำตอบ อาจไม่ถูกต้องทุกครั้ง 
+กรุณาตรวจสอบข้อมูลอีกครั้งกับแหล่งอ้างอิง
